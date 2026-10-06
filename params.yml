@@ -1,0 +1,13 @@
+# Only values commonly changed between runs are repeated here.
+# All available defaults are documented in conf/base.config.
+input: null
+outdir: results
+
+humann_cpus: 8
+max_parallel_samples: 10
+remove_temp_output: false
+
+run_join: true
+run_renorm: true
+renorm_units: cpm
+run_split_stratified: true
